@@ -48,3 +48,7 @@ The **Budget register entries defaulting of amount type** feature enables the de
 https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budgeting/basic-budgeting-overview-configuration
 
 TODO - @ryansand - Financial reporting retention feature
+
+## Extended ledger voucher type setup for China
+
+This feature allows you to setup impacted accounts for the Chinese voucher type in the context of account groups. Find more details about the feature in the topic [Set up Chinese vouchers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/tasks/set-up-chinese-vouchers)
