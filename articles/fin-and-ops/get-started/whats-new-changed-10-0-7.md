@@ -49,6 +49,23 @@ https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budge
 
 TODO - @ryansand - Financial reporting retention feature
 
-## Extended ledger voucher type setup for China
+## Account groups selection for ledger voucher types (China)
 
-This feature allows you to setup impacted accounts for the Chinese voucher type in the context of account groups. Find more details about the feature in the topic [Set up Chinese vouchers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/tasks/set-up-chinese-vouchers)
+This feature allows you to select accounts groups when setting up voucher types for China. 
+
+### Enable the feature
+1. Enable the feature in the **Workspaces > Feature management**.
+2. Feature introduces a new table where voucher type setup is stored. To copy existing Chinese voucher types setup to a new table, go to **System administration > Periodic tasks > Database > Consistency check**. Expand **Program > General ledger** and mark **Restriction type for voucher** check box. 
+3. Select **Check** in the **Check/Fix** field to check whether there are settings in existing setup to copy to a new table.
+4. Select **Fix** in the **Check/Fix** field to copy settings from existing table to a new table.
+
+## Set up Voucher type
+1. Go to **General ledger > Journal setup > Chinese voucher type > Voucher type**.
+2. Under the **Rules** FastTab, select the line with specific restriction.
+2. Under the **Impacted accounts** FastTab, click **Add** and set up the accounts for the selected rule:
+- In the **Account type** field, select **Ledger**, **Customer**, **Vendor**, **Project**, **Fixed assets**, **Bank**
+- In the **Account code**, select **Account**, **Group**, or **All**. Note that the value **Group** is not available for **Ledger** account code.
+- In the **Group number** field, select customer group, vendor group, project group, fixed asset group, or bank group respectively to the value in **Account type**, if you selected **Group** in the field **Account code**.
+- In the **Account number** field, select ledger account, customer account, vendor account, project ID, fixed asset number, or bank account respectively value in **Account type**, if you selected **Table** in the field **Account code**
+
+Find more details about how to set up Chinese voucher types in the topic [Set up Chinese vouchers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/tasks/set-up-chinese-vouchers)
