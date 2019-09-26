@@ -59,7 +59,7 @@ This feature allows you to select accounts groups when setting up voucher types 
 3. Select **Check** in the **Check/Fix** field to check whether there are settings in existing setup to copy to a new table.
 4. Select **Fix** in the **Check/Fix** field to copy settings from existing table to a new table.
 
-## Set up Voucher type
+### Set up Voucher type
 1. Go to **General ledger > Journal setup > Chinese voucher type > Voucher type**.
 2. Under the **Rules** FastTab, select the line with specific restriction.
 2. Under the **Impacted accounts** FastTab, click **Add** and set up the accounts for the selected rule:
