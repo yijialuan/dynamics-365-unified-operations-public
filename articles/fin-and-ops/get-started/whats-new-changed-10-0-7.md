@@ -49,7 +49,7 @@ https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budge
 
 TODO - @ryansand - Financial reporting retention feature
 
-## Account groups selection for ledger voucher types (China)
+## Account groups selection for Chinese voucher types
 
 This feature allows you to select accounts groups when setting up voucher types for China. 
 
