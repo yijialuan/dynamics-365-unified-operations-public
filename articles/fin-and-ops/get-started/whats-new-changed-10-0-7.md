@@ -69,3 +69,7 @@ This feature allows you to select accounts groups when setting up voucher types 
 - In the **Account number** field, select ledger account, customer account, vendor account, project ID, fixed asset number, or bank account respectively value in **Account type**, if you selected **Table** in the field **Account code**
 
 Find more details about how to set up Chinese voucher types in the topic [Set up Chinese vouchers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/tasks/set-up-chinese-vouchers)
+
+## Sort by resource in the project invoice proposal
+
+The **Enable sorting by resource during project invoice proposal creation** feature enables the ability for the project accountant to sort the project transactions available for billing to be sorted by the resource when creating a new project invoice proposal. The grid displaying the available project transactions will have a separate field for Resource ID and Resource, allowing the user to filter and sort on the resource name. This feature is disabled by default and can be enabled in **Workspaces > Feature management**.
