@@ -49,6 +49,8 @@ https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budge
 
 TODO - @ryansand - Financial reporting retention feature
 
+The **Ledger settlement by user** feature allows processing ledger settlement by user ID.  When enabled, a user will only see records in Advanced ledger settlement that have no user ID (not marked for settlement) or have their user ID (records they marked for settlement). Only the records marked by that user will be processed when choosing Settle marked transactions. A new button, Unmark for selected users, was also added to unmark records marked for settlement but not processed.  This could be used after a user leaves an organization. 
+
 ## Account groups selection for Chinese voucher types
 
 This feature allows you to select accounts groups when setting up voucher types for China. 
