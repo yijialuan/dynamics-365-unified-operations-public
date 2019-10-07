@@ -47,6 +47,8 @@ https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budge
 The **Budget register entries defaulting of amount type** feature enables the defaulting of amount type to revenue or expense based on the main account of the budget line.
 https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/budgeting/basic-budgeting-overview-configuration
 
+TODO - @ryansand - Financial reporting retention feature
+
 The **Ledger settlement by user** feature allows processing ledger settlement by user ID.  When enabled, a user will only see records in Advanced ledger settlement that have no user ID (not marked for settlement) or have their user ID (records they marked for settlement). Only the records marked by that user will be processed when choosing Settle marked transactions. A new button, Unmark for selected users, was also added to unmark records marked for settlement but not processed.  This could be used after a user leaves an organization. 
 
 ## Account groups selection for Chinese voucher types
@@ -73,3 +75,17 @@ Find more details about how to set up Chinese voucher types in the topic [Set up
 ## Sort by resource in the project invoice proposal
 
 The **Enable sorting by resource during project invoice proposal creation** feature enables the ability for the project accountant to sort the project transactions available for billing to be sorted by the resource when creating a new project invoice proposal. The grid displaying the available project transactions will have a separate field for Resource ID and Resource, allowing the user to filter and sort on the resource name. This feature is disabled by default and can be enabled in **Workspaces > Feature management**.
+
+
+## Forecast position reports (Public Sector)
+
+You can use the **Forecast position summary** report to generate forecast position information for during a budget plan and scenario that you specify.  The **Forecast position summary** report shows forecast position costs by account distributions. The forecast position costs are shown, grouped by their assigned account distributions. The cost amounts are factored by the percentage assigned to the account distribution. 
+
+
+## Purchasing cards (Public Sector)
+
+Agencies use purchasing cards so that employees can procure goods and services without using the standard purchase requisition process. The pages and fields that are related to purchasing cards provide a mechanism for tracking purchases. Each purchase that an employee makes by using a purchasing card is recorded on a vendor invoice. However, the invoice isn't paid by using a check or electronic payment to the vendor that provided the goods or services. Instead, each invoice of this type is associated with another vendor invoice that is created to pay the vendor that provides the purchasing card services (that is, the financial institution). The card purchases are paid off when the balance that is owed to the purchasing card services provider is paid each month.
+
+## Mark a Purchase argreement as "Closed"
+
+Users can now mark a Purchase agreement as "Closed" to signal the agreement is no longer actively used, making it so users will not be able to create release orders from the purchase agreement.
