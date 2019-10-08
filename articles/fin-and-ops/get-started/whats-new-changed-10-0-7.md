@@ -89,3 +89,16 @@ Agencies use purchasing cards so that employees can procure goods and services w
 ## Mark a Purchase argreement as "Closed"
 
 Users can now mark a Purchase agreement as "Closed" to signal the agreement is no longer actively used, making it so users will not be able to create release orders from the purchase agreement.
+
+## Run Settle and post sales tax in batch mode
+
+Users can now run **Settle and post sales tax** in batch mode in Italy, Belgium and Australia, please refer to [Set up sales tax settlement periods](../../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md) for the setup.
+
+## Tax engine
+
+> [!NOTE]
+> The tax engine (GTE) is currently only available for India.
+
+### Create tax component with pre-defined rules
+
+Instead of creating a new tax component from scratch, users can now create it with predefined tax rules which support the most commonly used taxation rules like reverse charge, non-deductible, etc., please refer to [Create tax component](../../financials/localizations/tax-engine-create-tax-component.md) for details.
